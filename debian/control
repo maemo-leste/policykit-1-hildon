@@ -1,0 +1,18 @@
+Source: policykit-1-hildon
+Section: admin
+Priority: extra
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/maemo-leste/policykit-1-hildon
+XSBC-Bugtracker: https://github.com/maemo-leste/policykit-1-hildon
+Vcs-Git: https://github.com/maemo-leste/policykit-1-hildon
+Vcs-Browser: https://github.com/maemo-leste/policykit-1-hildon/
+Rules-Requires-Root: no
+
+Package: policykit-1-hildon
+Architecture: any
+Depends: dsme, policykit-1-gnome
+Description: authentication agent for PolicyKit
+ PolicyKit-hildon provides a D-Bus session bus service that is used to
+ bring up authentication dialogs used for obtaining privileges.
