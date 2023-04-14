@@ -2,7 +2,8 @@ Source: policykit-1-hildon
 Section: admin
 Priority: extra
 Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13),
+  maemo-system-services-dev
 Standards-Version: 4.5.1
 Homepage: https://github.com/maemo-leste/policykit-1-hildon
 XSBC-Bugtracker: https://github.com/maemo-leste/policykit-1-hildon
